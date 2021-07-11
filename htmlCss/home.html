@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <!-- FAVICON SITE LOGO -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Open Sans Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <title>BEAtZ</title>
+</head>
+
+<body>
+
+    <header class="container center">
+        <div class="hamburgermenu">
+            <span class="hamburgerbun"></span>
+            <span class="hamburgerbun"></span>
+        </div>
+        <h1 class="site-logo"><a href="/htmlCss/index.html"> BEAtZ</a></h1>
+        <nav class="header-nav-list">
+            <ul class="nav-list">
+                <li class="nav-list-item">Catalogue</li>
+                <li class="nav-list-item">SoundTracks</li>
+                <li class="nav-list-item">New Albums</li>
+                <li class="nav-list-item">Genres</li>
+                <!-- <li class="nav-list-item">My Music</li> -->
+            </ul>
+        </nav>
+        <nav class="user-nav">
+            <ul class="user-nav-list ">
+                <li class="user-nav-item" id="userSearchBtn">
+                    <a href="/htmlCss/search.html"> <span class="material-icons-round icon-dark"> search </span></a>
+                </li>
+                <li class="user-nav-item">
+                    <button class="btn btn-primary header-auth-button">
+                        <span class="material-icons-round"> lock </span>
+                        <p> &nbsp; SIGN UP </p>
+                    </button>
+                </li>
+                <li class="user-nav-item">
+                    <span class="material-icons-round icon-dark"> shopping_cart </span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-banner container center">
+        <div class="new-album-list">
+            <div class="home-banner-img ">
+                <img src="https://loremflickr.com/320/240/girl?lock=58" alt="New | Popular Album" />
+            </div>
+            <div class="home-banner-img ">
+                <img src="https://loremflickr.com/320/240/sex?lock=415" alt="New | Popular Album" />
+            </div>
+            <div class="home-banner-img ">
+                <img src="https://loremflickr.com/320/240/girl?lock=556" alt="New | Popular Album" />
+            </div>
+        </div>
+        <div class="banner-content">
+            <h1 class="banner-content-head">Over 5+ million tracks from classical to jazz to punk</h1>
+            <p class="banner-content-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laudantium nobis repellat eius
+                omnis
+                maxime,
+                facere possimus libero nesciunt. Quia minima recusandae at debitis dolor!
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-primary">
+                    <p> TRY NOW!</p>
+                </button>
+                <button class="btn btn-secondary-outline">
+                    <span class="material-icons-round">graphic_eq</span>
+                    &nbsp; LISTEN NOW
+                </button>
+            </div>
+            <p class="banner-content-subtitle">1 month free trial. No credit card required. Cancel
+                anytime</p>
+        </div>
+        <button class="dir-btn dir-btn-left" id="dir-btn-left">
+            <span class="material-icons-round">
+                chevron_left
+            </span>
+        </button>
+        <button class="dir-btn dir-btn-right " id="dir-btn-right">
+            <span class="material-icons-round">
+                chevron_right
+            </span>
+        </button>
+    </section>
+
+    <hr class="page-divider container" />
+
+    <main role="main" class="container">
+        <!-- New releases -->
+        <section class="container">
+            <div class="albums-container-head">
+                <h1 class="albums-heading">New releases</h1>
+                <div class="albums-slider-btn">
+                    <span class="text-dark-muted">SEE ALL</span>
+                    <button class="btn dir-btn albums-type-slider-left"> <span class="material-icons-round">
+                            west
+                        </span></button>
+                    <button class="btn dir-btn albums-type-slider-right">
+                        <span class="material-icons-round">
+                            east
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- big music container  -->
+            <div class="albums-wrapper ">
+                <!-- First Music  -->
+                <div class="album-container album-xl-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Second Music  -->
+                <div class="album-container album-xl-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Third Music  -->
+                <div class="album-container album-xl-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Forth Music  -->
+                <div class="album-container album-xl-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Fifth Music  -->
+                <div class="album-container album-xl-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- smaller music container  -->
+            <div class="albums-wrapper ">
+                <!-- First Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Second Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Third Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Forth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Fifth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Sixth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=581"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="page-divider" />
+
+        <!-- Bestsellers -->
+        <section class="container">
+            <div class="albums-container-head">
+                <h1 class="albums-heading">Bestsellers</h1>
+                <div class="albums-slider-btn  ">
+                    <span class="text-dark-muted">SEE ALL</span>
+                    <button class="btn dir-btn albums-type-slider-left"> <span class="material-icons-round">
+                            west
+                        </span></button>
+                    <button class="btn dir-btn albums-type-slider-right">
+                        <span class="material-icons-round">
+                            east
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="albums-wrapper ">
+                <!-- First Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=585"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Second Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=585"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Third Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=585"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Forth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=585"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Fifth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=585"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Sixth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=585"
+                            alt="New | Popular music" />
+
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- page symmetry breaker sign up -->
+        <section class="container page-breaker">
+            <div class="banner-content">
+                <h1 class="banner-content-head">Over 5+ million tracks from classical to jazz to punk</h1>
+                <p class="banner-content-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laudantium nobis repellat
+                    eius
+                    omnis
+                    maxime,
+                    facere possimus libero nesciunt. Quia minima recusandae at debitis dolor!
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-secondary    ">
+                        <span class="material-icons-round">
+                            facebook
+                        </span>
+                        <pre> </pre>
+                        SIGN UP
+                    </button>
+                    <button class="btn btn-secondary    ">
+                        <span class="material-icons-round">
+                            facebook
+                        </span>
+                        <pre> </pre>
+                        SIGN UP
+                    </button>
+                </div>
+
+            </div>
+            <div class="hot-album-list">
+                <div class="hot-banner-img">
+                    <img src="https://loremflickr.com/320/240/girl?lock=58" alt="New | Popular Album" />
+                </div>
+                <div class="hot-banner-img">
+                    <img src="https://loremflickr.com/320/240/sex?lock=415" alt="New | Popular Album" />
+                </div>
+                <div class="hot-banner-img">
+                    <img src="https://loremflickr.com/320/240/girl?lock=556" alt="New | Popular Album" />
+                </div>
+                <pre> </pre>
+
+            </div>
+        </section>
+
+        <!-- Coming Soon -->
+        <section class="container">
+            <div class="albums-container-head">
+                <h1 class="albums-heading">Coming Soon</h1>
+                <div class="albums-slider-btn  ">
+                    <span class="text-dark-muted">SEE ALL</span>
+                    <button class="btn dir-btn albums-type-slider-left"> <span class="material-icons-round">
+                            west
+                        </span></button>
+                    <button class="btn dir-btn albums-type-slider-right">
+                        <span class="material-icons-round">
+                            east
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="albums-wrapper ">
+                <!-- First Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Second Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Third Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Forth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Fifth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+                <!-- Sixth Music  -->
+                <div class="album-container">
+                    <div class="music-img-container">
+                        <div class="album-img-film">
+                            <span class="material-icons-round">
+                                play_arrow
+                            </span>
+                        </div>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                    </div>
+                    <div class="album-details">
+                        <div>
+                            <h2 class="music-name">Night Changes<span class="music-price">0.99</span> </h2>
+                        </div>
+                        <p class="album-name ">Memories 2011</p>
+                        <div class="music-rating  "><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_rate
+                            </span><span class="material-icons-round text-sec-accent">
+                                star_border
+                            </span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="page-divider" />
+
+        <!-- Top charts -->
+        <section class="container">
+            <div class="albums-container-head">
+                <h1 class="albums-heading">Top charts</h1>
+                <div class="albums-slider-btn  ">
+                    <span class="text-dark-muted">SEE ALL</span>
+                    <button class="btn dir-btn albums-type-slider-left"> <span class="material-icons-round">
+                            west
+                        </span></button>
+                    <button class="btn dir-btn albums-type-slider-right">
+                        <span class="material-icons-round">
+                            east
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="general-container">
+
+                <div class="general-list">
+                    <!-- First list item -->
+                    <div class="general-item">
+                        <p class="general-item-number">1</p>
+                        <span class="material-icons-round general-rank-indicator">
+                            play_arrow
+                        </span>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                        <div class="flac-detail-container">&nbsp;
+                            FLAC &nbsp; <span class="music-price">0.99</span>&nbsp;<span class="material-icons-round">
+                                arrow_drop_down
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Second list item -->
+                    <div class="general-item">
+                        <p class="general-item-number">1</p>
+                        <span class="material-icons-round general-rank-indicator">
+                            play_arrow
+                        </span>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                        <div class="flac-detail-container">&nbsp;
+                            FLAC &nbsp; <span class="music-price">0.99</span>&nbsp;<span class="material-icons-round">
+                                arrow_drop_down
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Third list item -->
+                    <div class="general-item">
+                        <p class="general-item-number">1</p>
+                        <span class="material-icons-round general-rank-indicator">
+                            play_arrow
+                        </span>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                        <div class="flac-detail-container">&nbsp;
+                            FLAC &nbsp; <span class="music-price">0.99</span>&nbsp;<span class="material-icons-round">
+                                arrow_drop_down
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Forth list item -->
+                    <div class="general-item">
+                        <p class="general-item-number">1</p>
+                        <span class="material-icons-round general-rank-indicator">
+                            play_arrow
+                        </span>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                        <div class="flac-detail-container">&nbsp;
+                            FLAC &nbsp; <span class="music-price">0.99</span>&nbsp;<span class="material-icons-round">
+                                arrow_drop_down
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Fifth list item -->
+                    <div class="general-item">
+                        <p class="general-item-number">1</p>
+                        <span class="material-icons-round general-rank-indicator">
+                            play_arrow
+                        </span>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                        <div class="flac-detail-container">&nbsp;
+                            FLAC &nbsp; <span class="music-price">0.99</span>&nbsp;<span class="material-icons-round">
+                                arrow_drop_down
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Sixth list item -->
+                    <div class="general-item">
+                        <p class="general-item-number">1</p>
+                        <span class="material-icons-round general-rank-indicator">
+                            play_arrow
+                        </span>
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                        <div class="flac-detail-container">&nbsp;
+                            FLAC &nbsp; <span class="music-price">0.99</span>&nbsp;<span class="material-icons-round">
+                                arrow_drop_down
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="general-categories-wrapper">
+                    <div class="general-categories">
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category active">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                        <div class="general-category">
+                            <img class="general-category-img" src="https://loremflickr.com/320/240/music?lock=55"
+                                alt="Top chart music" />
+                            <div class="general-category-details"><span class="material-icons-round">
+                                    play_circle_outline
+                                </span>
+                                <p class="music-name">Night Changes</p>
+                                <p class="album-name">Memories 2011</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="page-divider" />
+
+        <!-- Browse by genre -->
+        <section class="container">
+            <div class="albums-container-head">
+                <h1 class="albums-heading">Browse by genre</h1>
+                <div class="albums-slider-btn  ">
+                    <span class="text-dark-muted">SEE ALL</span>
+                    <button class="btn dir-btn albums-type-slider-left"> <span class="material-icons-round">
+                            west
+                        </span></button>
+                    <button class="btn dir-btn albums-type-slider-right">
+                        <span class="material-icons-round">
+                            east
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="albums-wrapper ">
+                <!-- First Genre-->
+                <div class="">
+                    <div class=" btn-primary-outline  music-img-container genre-container">
+                        <span class="material-icons-round icon-sz-7">
+                            album
+                        </span>
+                        <h2 class="genre-name">Avant-Garde</h2>
+                    </div>
+
+                </div>
+
+                <!-- Second Genre-->
+                <div class="">
+                    <div class=" btn-primary-outline  music-img-container genre-container">
+                        <span class="material-icons-round icon-sz-7">
+                            album
+                        </span>
+                        <h2 class="genre-name">Avant-Garde</h2>
+                    </div>
+                </div>
+
+                <!-- Third Genre-->
+                <div class="">
+                    <div class=" btn-primary-outline  music-img-container genre-container">
+                        <span class="material-icons-round icon-sz-7">
+                            album
+                        </span>
+                        <h2 class="genre-name">Avant-Garde</h2>
+                    </div>
+                </div>
+
+                <!-- Forth Genre-->
+                <div class="">
+                    <div class=" btn-primary-outline  music-img-container genre-container">
+                        <span class="material-icons-round icon-sz-7">
+                            album
+                        </span>
+                        <h2 class="genre-name">Avant-Garde</h2>
+                    </div>
+                </div>
+
+                <!-- Fifth Genre-->
+                <div class="">
+                    <div class=" btn-primary-outline  music-img-container genre-container">
+                        <span class="material-icons-round icon-sz-7">
+                            album
+                        </span>
+                        <h2 class="genre-name">Avant-Garde</h2>
+                    </div>
+                </div>
+
+                <!-- Sixth Genre-->
+                <div class="">
+                    <div class=" btn-primary-outline  music-img-container genre-container">
+                        <span class="material-icons-round icon-sz-7">
+                            album
+                        </span>
+                        <h2 class="genre-name">Avant-Garde</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <hr class="page-divider container" />
+
+    <footer class="container">
+        <div class="space-between-row">
+            <h1 class="site-logo-footer">BEAtZ</h1>
+            <nav class="footer-nav-list">
+                <ul class="nav-list">
+                    <li class="nav-list-item">Help</li>
+                    <li class="nav-list-item">Legal info</li>
+                    <li class="nav-list-item">Terms & Conditions</li>
+                    <li class="nav-list-item">Privary policy</li>
+                    <li class="nav-list-item">Copyright policy</li>
+                    <li class="nav-list-item">Affiliate</li>
+                    <li class="nav-list-item">Contacts</li>
+                </ul>
+            </nav>
+            <nav class="user-nav">
+                <div class="dropdown">
+                    <div><span>English </span>&nbsp;<span class="material-icons-round">
+                            arrow_drop_down
+                        </span></div>
+                    <div class="dropdown-content">
+                        <p>English</p>
+                        <hr>
+                        <p>Hindi</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="space-between-row">
+            <p>&copy; 2021 BEAtZ. All rights reserved.</p>
+            <img alt="Credit Card Logos" title="Credit Card Logos"
+                src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-1/credit_card_logos_17.gif"
+                width="180" height="27" border="0" />
+        </div>
+    </footer>
+
+</body>
+
+</html>

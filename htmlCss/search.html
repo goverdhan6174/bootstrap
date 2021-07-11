@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <!-- FAVICON SITE LOGO -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Open Sans Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <title>BEAtZ</title>
+</head>
+
+<body>
+
+    <header class="container center">
+        <div class="hamburgermenu">
+            <span class="hamburgerbun"></span>
+            <span class="hamburgerbun"></span>
+        </div>
+        <h1 class="site-logo"><a href="/htmlCss/index.html"> BEAtZ</a></h1>
+        <nav class="header-nav-list">
+            <ul class="nav-list">
+                <li class="nav-list-item">Catalogue</li>
+                <li class="nav-list-item">SoundTracks</li>
+                <li class="nav-list-item">New Albums</li>
+                <li class="nav-list-item">Genres</li>
+                <!-- <li class="nav-list-item">My Music</li> -->
+            </ul>
+        </nav>
+        <nav class="user-nav">
+            <ul class="user-nav-list ">
+                <li class="user-nav-item" id="userSearchBtn">
+                    <a href="/htmlCss/search.html"> <span class="material-icons-round icon-dark"> search </span></a>
+                </li>
+                <li class="user-nav-item">
+                    <button class="btn btn-primary header-auth-button">
+                        <span class="material-icons-round"> lock </span>
+                        <p> &nbsp; SIGN UP </p>
+                    </button>
+                </li>
+                <li class="user-nav-item">
+                    <span class="material-icons-round icon-dark"> shopping_cart </span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="userSearch-wrapper">
+        <div class="container userSearch-container">
+            <div> <label for="search" class="hidden"></label><input type="search" name="search"
+                    class="userSearch d-none" id="userSearch" placeholder="Search Music | Album | Artist" />
+            </div>
+            <div class="userSearch-result-wrapper">
+
+                <!-- Artist List -->
+                <div class="userSearch-category-wrapper">
+                    <div class="space-between-row">
+                        <h1 class="userSearch-category-heading">
+                            Artist
+                        </h1>
+                        <span class="userSearch-category-number">99</span>
+                    </div>
+                    <hr class="page-divider-sm" />
+                    <div class="general-list">
+                        <!-- First list item -->
+                        <div class="general-item">
+                            <img class="music-img round" src="https://loremflickr.com/320/240/girl?lock=55"
+                                alt="New | Popular music" />
+                            <div class="album-details">
+                                <p class="music-name">Night Changes</p>
+                            </div>
+                        </div>
+
+                        <!-- First list item -->
+                        <div class="general-item">
+                            <img class="music-img round" src="https://loremflickr.com/320/240/girl?lock=55"
+                                alt="New | Popular music" />
+                            <div class="album-details">
+                                <p class="music-name">Night Changes</p>
+                            </div>
+                        </div>
+
+                        <!-- First list item -->
+                        <div class="general-item">
+                            <img class="music-img round" src="https://loremflickr.com/320/240/girl?lock=55"
+                                alt="New | Popular music" />
+                            <div class="album-details">
+                                <p class="music-name">Night Changes</p>
+                            </div>
+                        </div>
+
+                        <!-- First list item -->
+                        <div class="general-item">
+                            <img class="music-img round" src="https://loremflickr.com/320/240/girl?lock=55"
+                                alt="New | Popular music" />
+                            <div class="album-details">
+                                <p class="music-name">Night Changes</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- Albums List -->
+                <div class="userSearch-category-wrapper">
+                    <div class="space-between-row">
+                        <h1 class="userSearch-category-heading">
+                            Albums
+                        </h1>
+                        <span class="userSearch-category-number">99</span>
+                    </div>
+                    <hr class="page-divider-sm" />
+                    <div class="general-list">
+                        <!-- First list item -->
+                        <div class="general-list">
+
+                        </div>
+                    </div>
+
+                    <!-- First list item -->
+                    <div class="general-item">
+                        <img class="music-img" src="https://loremflickr.com/320/240/girl?lock=55"
+                            alt="New | Popular music" />
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tracks List -->
+                <div class="userSearch-category-wrapper">
+                    <div class="space-between-row">
+                        <h1 class="userSearch-category-heading">
+                            Tracks
+                        </h1>
+                        <span class="userSearch-category-number">99</span>
+                    </div>
+                    <hr class="page-divider-sm" />
+                    <div class="general-list">
+                        <!-- First list item -->
+                        <div class="general-list">
+
+                        </div>
+                    </div>
+
+                    <!-- First list item -->
+                    <div class="general-item">
+                        <div class="album-details">
+                            <p class="music-name">Night Changes</p>
+                            <p class="album-name">Memories 2011</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tags List -->
+                <div class="userSearch-category-wrapper">
+                    <div class="space-between-row">
+                        <h1 class="userSearch-category-heading">
+                            Tags
+                        </h1>
+                        <span class="userSearch-category-number">99</span>
+                    </div>
+                    <hr class="page-divider-sm" />
+                    <div class="tags-container">
+                        <!-- First tag -->
+                        <span class="tag-container">
+                            search
+                        </span>
+                        <!-- Second tag -->
+                        <span class="tag-container">
+                            search
+                        </span>
+                        <!-- Third tag -->
+                        <span class="tag-container">
+                            search
+                        </span>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="space-between-row">
+                <hr class="page-divider" style="width: 80%" />
+                <p>
+                    <span class="text-dark-muted">SEE ALL</span>
+                    <span class="material-icons-round">
+                        east
+                    </span>
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
